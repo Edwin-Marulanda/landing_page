@@ -20,13 +20,6 @@
     color: #999;
   }
 
-.bt-orange{
-    background-color: #FA7436;
-    border: 0px;
-    color: white;
-    width: 97px;
-    height: 30px;
-  }
 
   .img-butt {
     width: 100%;
@@ -43,6 +36,11 @@
     opacity: 1;
 }  
   .boton-imagen {
+    background-color: #FA7436;
+    border: 0px;
+    color: white;
+    width: 97px;
+    height: 30px;
     position: absolute;
     top: 80%;
     left: 50%;
@@ -60,3 +58,19 @@
     width: 16px; 
     height: 16px;
   }
+
+  .boton-redondo{
+    width: 40px;
+    height: 40px;
+  }
+
+  .boton-redondo svg {
+    fill: gray;
+  }
+  .boton-redondo:hover{
+    background-color: #FA7436;
+  }
+  .boton-redondo:hover svg{
+    fill: white;
+  }
+
