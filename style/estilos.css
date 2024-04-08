@@ -13,3 +13,50 @@
     color: #9c9eb8;
     font-size: 11px;
 }
+.poppins-font {
+    font-family: "Poppins", sans-serif;
+}
+.parrafo-gris {
+    color: #999;
+  }
+
+.bt-orange{
+    background-color: #FA7436;
+    border: 0px;
+    color: white;
+    width: 97px;
+    height: 30px;
+  }
+
+  .img-butt {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .contenedor:hover .img-butt {
+    filter: brightness(70%); 
+}
+.contenedor:hover .boton-imagen {
+    opacity: 1;
+}  
+  .boton-imagen {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Posiciona el botón sobre la imagen */
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .contenedor {
+    position: relative; /* Posiciona el contenedor relativamente */
+  }
+  .img-icon{
+    aspect-ratio: 1/1; 
+    width: 16px; 
+    height: 16px;
+  }
