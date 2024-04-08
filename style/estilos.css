@@ -44,8 +44,8 @@
     background-color: #FA7436;
     border: 0px;
     color: white;
-    width: 97px;
-    height: 30px;
+    width: 60%;
+    height: 20%;
     position: absolute;
     top: 80%;
     left: 50%;
@@ -74,6 +74,14 @@
 
 .boton-redondo svg {
     fill: gray;
+}
+
+.boton-redondo:hover {
+    border: 2px solid lightgray;
+}
+
+.boton-redondo svg {
+    fill: lightgray;
 }
 
 .boton-redondo:hover {
