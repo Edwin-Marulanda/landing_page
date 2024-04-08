@@ -1,41 +1,46 @@
 .orange-text {
-    color: orange;
+    color: #fa7436;
 }
 
-.bg-section{
+.bg-section {
     background-color: #fefcfb;
 }
-.bg-two-section{
+
+.bg-two-section {
     background-color: #f7f8fc;
 }
 
-.text-sub{
+.text-sub {
     color: #9c9eb8;
     font-size: 11px;
 }
+
 .poppins-font {
     font-family: "Poppins", sans-serif;
 }
+
 .parrafo-gris {
     color: #999;
-  }
+}
 
 
-  .img-butt {
+.img-butt {
     width: 100%;
     height: auto;
     aspect-ratio: 1/1;
     object-fit: cover;
     transition: 0.5s ease-in-out;
-  }
-  
-  .contenedor:hover .img-butt {
-    filter: brightness(70%); 
 }
+
+.contenedor:hover .img-butt {
+    filter: brightness(70%);
+}
+
 .contenedor:hover .boton-imagen {
     opacity: 1;
-}  
-  .boton-imagen {
+}
+
+.boton-imagen {
     background-color: #FA7436;
     border: 0px;
     color: white;
@@ -45,32 +50,104 @@
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 1; /* Posiciona el botón sobre la imagen */
+    z-index: 1;
+    /* Posiciona el botón sobre la imagen */
     opacity: 0;
     transition: 0.5s ease-in-out;
-  }
-  
-  .contenedor {
-    position: relative; /* Posiciona el contenedor relativamente */
-  }
-  .img-icon{
-    aspect-ratio: 1/1; 
-    width: 16px; 
-    height: 16px;
-  }
+}
 
-  .boton-redondo{
+.contenedor {
+    position: relative;
+    /* Posiciona el contenedor relativamente */
+}
+
+.img-icon {
+    aspect-ratio: 1/1;
+    width: 16px;
+    height: 16px;
+}
+
+.boton-redondo {
     width: 40px;
     height: 40px;
-  }
+}
 
-  .boton-redondo svg {
+.boton-redondo svg {
     fill: gray;
-  }
-  .boton-redondo:hover{
-    background-color: #FA7436;
-  }
-  .boton-redondo:hover svg{
-    fill: white;
-  }
+}
 
+.boton-redondo:hover {
+    background-color: #FA7436;
+}
+
+.boton-redondo:hover svg {
+    fill: white;
+}
+
+.carousel .carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: #fa7436 !important;
+    position: relative;
+    bottom: -50px;
+}
+
+#social-icon a:hover {
+    color: #FA7436 !important;
+}
+
+.bg-orange {
+    background-color: #fa7436 !important
+}
+
+.pt-9 {
+    padding-top: 9rem;
+}
+
+.btn-inside {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    color: #ffffff;
+}
+
+.icon-inside {
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateX(10%);
+    border: none;
+
+}
+
+.btn-inside:hover {
+    background-color: #ff5100 !important;
+}
+
+.custom-sub {
+    position: relative;
+}
+
+.custom-sub-input {
+    border: none;
+    padding: 10px 100px 10px 20px;
+    box-sizing: border-box;
+    width: 500px;
+
+}
+
+.custom-sub-botton {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    bottom: 3px;
+    border: 0;
+    color: #fff;
+    outline: none;
+    margin: 0;
+    padding: 0 10px;
+    z-index: 2;
+}
