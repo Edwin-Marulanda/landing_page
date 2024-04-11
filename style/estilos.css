@@ -23,7 +23,6 @@
     color: #999;
 }
 
-
 .img-butt {
     width: 100%;
     height: auto;
@@ -31,12 +30,15 @@
     object-fit: cover;
     transition: 0.5s ease-in-out;
 }
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(247, 148, 29, 0.2);
+}
 
-.contenedor:hover .img-butt {
+.card:hover .img-butt {
     filter: brightness(70%);
 }
 
-.contenedor:hover .boton-imagen {
+.card:hover .boton-imagen {
     opacity: 1;
 }
 
@@ -51,14 +53,12 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    /* Posiciona el botón sobre la imagen */
     opacity: 0;
     transition: 0.5s ease-in-out;
 }
 
 .contenedor {
     position: relative;
-    /* Posiciona el contenedor relativamente */
 }
 
 .img-icon {
@@ -70,13 +70,6 @@
 .boton-redondo {
     width: 40px;
     height: 40px;
-}
-
-.boton-redondo svg {
-    fill: gray;
-}
-
-.boton-redondo:hover {
     border: 2px solid lightgray;
 }
 
@@ -85,7 +78,9 @@
 }
 
 .boton-redondo:hover {
+    border: 0px solid lightgray;
     background-color: #FA7436;
+    transition: 0.5s ease-in-out;
 }
 
 .boton-redondo:hover svg {
@@ -159,3 +154,36 @@
     padding: 0 10px;
     z-index: 2;
 }
+
+.img-4-3 {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 5/4;
+    object-fit: cover;
+    transition: 0.5s ease-in-out;
+}
+
+.card-bottom {
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: Add a slight transparency to the top card */
+    position: relative;
+    z-index: 1;
+    top: 80px; 
+    left: 40px;
+  }
+  
+.card-front{
+    z-index: 2;
+}
+
+.card-shadow{
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.clip-circle {
+    clip-path: circle(45%);
+    width: 70px;
+    height: 70px;
+    z-index: 3;
+    top: -40px;
+    left: -40px;
+  }
