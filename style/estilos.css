@@ -1,13 +1,55 @@
+:root{
+    --primary: #fa7436;
+}
+
+.back-subs{
+    background-image: url('../images/img_back_subs.png');
+    background-size: 100%;
+}
+
+.back-best{
+    background-image: url('../images/img_back_best.png');
+    background-repeat: no-repeat;
+    background-position: 85%;
+    background-size: contain;
+}
+.back-card-sign{
+    background-image: url('../images/back_card_sing.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+.back-card-money{
+    background-image: url('../images/back_card_money.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+.back-card-travel{
+    background-image: url('../images/back_card_travel.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+
+.back-todo{
+    background-image: url('../images/back_todo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 87%;
+   
+}
 .orange-text {
-    color: #fa7436;
+    color: var(--primary);
+}
+
+.bg-orange {
+    background-color: var(--primary) !important;
+    color: white;
 }
 
 .bg-section {
     background-color: #fefcfb;
-}
-
-.bg-two-section {
-    background-color: #f7f8fc;
 }
 
 .text-sub {
@@ -43,7 +85,7 @@
 }
 
 .boton-imagen {
-    background-color: #FA7436;
+    background-color: var(--primary);
     border: 0px;
     color: white;
     width: 60%;
@@ -79,7 +121,7 @@
 
 .boton-redondo:hover {
     border: 0px solid lightgray;
-    background-color: #FA7436;
+    background-color: var(--primary);
     transition: 0.5s ease-in-out;
 }
 
@@ -91,18 +133,16 @@
     width: 12px;
     height: 12px;
     border-radius: 100%;
-    background-color: #fa7436 !important;
+    background-color: var(--primary) !important;
     position: relative;
     bottom: -50px;
 }
 
 #social-icon a:hover {
-    color: #FA7436 !important;
+    color: var(--primary) !important;
 }
 
-.bg-orange {
-    background-color: #fa7436 !important
-}
+
 
 .pt-9 {
     padding-top: 9rem;
